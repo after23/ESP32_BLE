@@ -22,7 +22,7 @@
 #include "BLEBeacon.h"
 #include "esp_sleep.h"
 
-#define GPIO_DEEP_SLEEP_DURATION     10  // sleep x seconds and then wake up
+#define GPIO_DEEP_SLEEP_DURATION     1  // sleep x seconds and then wake up
 RTC_DATA_ATTR static time_t last;        // remember last boot in RTC Memory
 RTC_DATA_ATTR static uint32_t bootcount; // remember number of boots in RTC Memory
 
